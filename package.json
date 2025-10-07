@@ -1,0 +1,16 @@
+{
+  "name": "test-deploy-v3",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Vladyslav Mahar <maharvladyslav@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
