@@ -1,0 +1,10 @@
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  padding-inline: 15px;
+  margin-inline: auto;
+
+  background-color: #252525;
+  padding-block: 50px;
+  border-radius: 25px;
+}

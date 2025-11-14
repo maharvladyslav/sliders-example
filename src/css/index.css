@@ -1,4 +1,7 @@
-body {
-  background-color: #5b4d4d;
-  color: #ffffff;
-}
+@import url(./global/reset.css);
+@import url(./global/global.css);
+@import url(./components/container.css);
+@import url(./components/section.css);
+@import url(./components/toggle-carusel.css);
+@import url(./components/swiper-carusel.css);
+@import url(./components/content.css);

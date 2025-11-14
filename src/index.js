@@ -1,1 +1,2 @@
-console.log("Js work");
+import "./js/toggle-slider";
+import "./js/swiper-carusel";

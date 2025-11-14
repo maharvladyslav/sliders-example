@@ -3,11 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test deploy v3</title>
+    <title>Sliders Examples</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <h1>Parcel deploy v3</h1>
+    <section class="section toggle-carusel">
+      <div class="container toggle-carusel__container">
+        <h2 class="section__title">Toggle Carousel</h2>
+
+        <div class="toggle-carusel__content">
+          <div class="toggle-slider">
+            <ul data-slide-container class="toggle-slider__list">
+              <li class="toggle-slider__item">
+                <div class="content">Content.Slide 1</div>
+              </li>
+              <li class="toggle-slider__item">
+                <div class="content content--red">Content.Slide 2</div>
+              </li>
+            </ul>
+          </div>
+          <div class="toggle-nav">
+            <ul data-slider-nav class="toggle-nav__list">
+              <li class="toggle-nav__item">
+                <button
+                  data-slide="0"
+                  class="toggle-nav__button toggle-nav__button--active"
+                >
+                  1
+                </button>
+              </li>
+              <li class="toggle-nav__item">
+                <button data-slide="1" class="toggle-nav__button">2</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="swiper-carusel">
+      <div class="container swiper-carusel__container">
+        <h2 class="section__title">Swiper carusel</h2>
+        <div class="swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="content">Content.Slide 1</div>
+            </li>
+            <li class="swiper-slide">
+              <div class="content content--red">Content.Slide 2</div>
+            </li>
+            <li class="swiper-slide">
+              <div class="content">Content.Slide 3</div>
+            </li>
+            <li class="swiper-slide">
+              <div class="content content--red">Content.Slide 4</div>
+            </li>
+            <li class="swiper-slide">
+              <div class="content">Content.Slide 5</div>
+            </li>
+            <li class="swiper-slide">
+              <div class="content content--red">Content.Slide 6</div>
+            </li>
+          </ul>
+          <!-- Якщо потрібні стрілки навігації -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- Якщо потрібна пагінація -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

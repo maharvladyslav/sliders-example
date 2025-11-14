@@ -1,0 +1,8 @@
+.section {
+  padding-block: 80px;
+}
+.section__title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
