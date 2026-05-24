@@ -1,2 +1,2 @@
-import "./js/toggle-slider";
-import "./js/swiper-carusel";
+import "./js/toggle-slider.js";
+import "./js/swiper-carusel.js";
